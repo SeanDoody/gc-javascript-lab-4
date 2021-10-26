@@ -1,0 +1,51 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+h2 {
+    display: inline-block;
+}
+
+.coin {
+    border-radius: 50%;
+    border: solid 2px black;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+}
+
+.quarter {
+    height: 243px;
+    width: 243px;
+    line-height: 243px;
+    background-color: lightslategray;
+}
+
+.dime {
+    height: 179px;
+    width: 179px;
+    line-height: 179px;
+    background-color: lightslategray;
+}
+
+.nickel {
+    height: 212px;
+    width: 212px;
+    line-height: 212px;
+    background-color: lightslategray;
+}
+
+.penny {
+    height: 190px;
+    width: 190px;
+    line-height: 190px;
+    background-color: brown;
+}
