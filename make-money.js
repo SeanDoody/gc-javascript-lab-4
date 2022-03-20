@@ -1,7 +1,8 @@
+const makeMoneySection = document.getElementById('make-money-section');
 const howMany = document.getElementById('how-many');
 const makeMoneyBtn = document.getElementById('make-money');
 const form = document.getElementById('coin-form');
-const total = document.getElementById('total');
+const total = document.getElementById('coin-form-total');
 
 function removeCoin(e) {
     const coin = e.target;
@@ -51,7 +52,7 @@ function makeMoney() {
             default:
                 break;
         }
-        document.body.appendChild(newCoin);
+        makeMoneySection.appendChild(newCoin);
         newCoin.addEventListener('click', removeCoin);
     }
 }

@@ -1,0 +1,126 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+body {
+    padding: 25px;
+}
+
+/* vending machine */
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    width: 500px;
+}
+
+#buttons button {
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+}
+
+/* make money */
+
+#make-money-section input {
+    margin-bottom: 10px;
+}
+
+#make-money-section select {
+    margin-bottom: 10px;
+}
+
+#make-money-section button {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+#make-money-section h3 {
+    display: inline-block;
+}
+
+.coin {
+    border-radius: 50%;
+    border: solid 2px black;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+}
+
+.quarter {
+    height: 122px;
+    width: 122px;
+    line-height: 122px;
+    background-color: lightslategray;
+}
+
+.dime {
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    background-color: lightslategray;
+}
+
+.nickel {
+    height: 106px;
+    width: 106px;
+    line-height: 106px;
+    background-color: lightslategray;
+}
+
+.penny {
+    height: 95px;
+    width: 95px;
+    line-height: 95px;
+    background-color: brown;
+}
+
+/* light bulb */
+
+#light-bulb {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 50%;
+    line-height: 200px;
+    text-align: center;
+}
+
+#light-bulb-section button {
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+}
+
+.light {
+    background-color: yellow;
+}
+
+.dark {
+    background-color: gray;
+}
+
+.hidden {
+    display: none;
+}
+
+.disabled {
+    color: gray;
+    pointer-events: none;
+}

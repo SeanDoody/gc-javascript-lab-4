@@ -1,4 +1,4 @@
-const totalString = document.getElementById('total');
+const totalString = document.getElementById('vending-machine-total');
 const buttons = document.getElementById('buttons');
 buttons.addEventListener('click', buttonClicked);
 

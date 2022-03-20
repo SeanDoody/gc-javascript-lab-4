@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Lab 4</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>JavaScript Lab 4</h1>
+
+    <section id="vending-machine-section">
+        <h2>#1 Vending Machine</h2>
+        <h3 id="vending-machine-total">Total: $0.00</h3>
+        <div id="buttons">
+            <button id="lime-cola">LIME COLA<br>$2.00</button>
+            <button id="salted-peanuts">SALTED PEANUTS<br>$3.00</button>
+            <button id="chocolate-bar">CHOCOLATE BAR<br>$4.00</button>
+            <button id="fruit-gummies">FRUIT GUMMIES<br>$6.00</button>
+        </div>
+    </section>
+
+    <section id="make-money-section">
+        <h2>#2 Make Money</h2>
+        <form id="coin-form">
+            <label for="how-many">How many?</label>
+            <input type="number" id="how-many">
+            <br>
+            <label for="which-coin">Which coin?</label>
+            <select name="which-coin" id="which-coin">
+                <option value="quarter">Quarter</option>
+                <option value="dime">Dime</option>
+                <option value="nickel">Nickel</option>
+                <option value="penny">Penny</option>
+            </select>
+            <br>
+            <button id="make-money">Make Money!</button>
+            <br>
+            <h3>Total: $</h3>
+            <h3 id="coin-form-total">0.00</h3>
+        </form>
+    </section>
+
+    <section id="light-bulb-section">
+        <h2>#3 Light Bulb</h2>
+        <div id="light-bulb" class="dark">Light Bulb</div>
+        <button id="on">On</button>
+        <button id="off">Off</button>
+        <button id="toggle">Toggle</button>
+        <button id="end">End</button>
+    </section>
+
+    <script src="./vending-machine.js"></script>
+    <script src="./make-money.js"></script>
+    <script src="./light-bulb.js"></script>
+</body>
+
+</html>
